@@ -33,7 +33,7 @@ button:hover {
     cursor: pointer;
 }
 
-.header-container {
+.container-l {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -63,6 +63,14 @@ button:hover {
     padding-right: 1rem;
 }
 
+.col-70 {
+    width: 70%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
 .col-1-1 {
     width: 100%;
 }
@@ -73,7 +81,6 @@ button:hover {
 
 .col-1-3 {
     width: calc(100% / 3);
-    border: solid 1px lightgrey;
 }
 
 .col-1-4 {
@@ -131,6 +138,11 @@ button {
     padding-top: 3rem;
 }
 
+.header-container {
+    position: relative;
+    top: 5rem;
+}
+
 h1 {
     font-size: 4.5rem;
     font-weight: 800;
@@ -171,7 +183,9 @@ hr {
     margin-top: 6rem;
     margin-bottom: 4rem;
 }
+/* FINE TOP MAIN */
 
+/* INIZIO SUBSCRIPTION */
 .col-1-1 h2 {
     font-size: 2.5rem;
     margin-bottom: 3rem;
@@ -216,4 +230,50 @@ hr {
 
 .sub-service td {
     padding-bottom: 1rem;
+}
+
+.col-70 > * {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.col-70 > p {
+    margin-top: 3rem;
+}
+
+.col-30 > * {
+    margin-top: 1rem;
+}
+/* FINE SUBSCRIPTION */
+
+/* INIZIO PARTNER SECTION */
+.partner {
+    margin-top: 10rem;
+    display: flex;
+}
+
+.left-section-partner {
+    width: 60%;
+}
+
+.right-section-partner {
+    width: 40%;
+}
+
+.right-section-partner {
+    padding: 2rem;
+}
+
+.content-right-section-partner {
+    width: 90%;
+}
+
+.content-right-section-partner > * {
+    margin-bottom: 1rem;
+}
+
+#partner-button {
+    color: black;
+    background-color: transparent;
+    border: solid 1px black;
 }
