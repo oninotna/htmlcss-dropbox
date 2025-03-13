@@ -249,6 +249,7 @@ hr {
 /* INIZIO PARTNER SECTION */
 .partner {
     margin-top: 10rem;
+    margin-bottom: 10rem;
     display: flex;
 }
 
@@ -269,7 +270,7 @@ hr {
 }
 
 .content-right-section-partner > * {
-    margin-bottom: 1rem;
+    margin: 1rem 0rem;
 }
 
 #partner-button {
@@ -277,3 +278,56 @@ hr {
     background-color: transparent;
     border: solid 1px black;
 }
+/* FINE PARTNER SECTION */
+
+/* INIZIO INFO SECTION */
+.info-section * {
+    margin-bottom: 1rem;
+}
+/* FINE INFO SECTION */
+
+.client {
+    width: 70%;
+}
+
+.client h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.client a {
+    text-decoration: underline;
+    color: blue;
+    font-size: 1.2rem;
+}
+
+/* INIZIO FOOTER */
+footer {
+    background-color: black;
+    padding-top: 7rem;
+    margin-top: 14rem;
+}
+
+footer section {
+    display: flex;
+}
+
+.footer-nav {
+    width: 20%;
+    color: white;
+}
+
+.footer-nav th {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 2rem;
+}
+
+.footer-nav td {
+    padding-bottom: 1.5rem;
+}
+
+.footer-nav a {
+    font-size: 1.2rem;
+}
+
