@@ -91,6 +91,10 @@ button:hover {
     width: calc(100% / 5);
 }
 
+.col-2-3 {
+    width: calc(100% / 3 * 2);
+}
+
 /* INIZIO HEADER */
 header {
     display: flex;
@@ -207,6 +211,16 @@ hr {
 .card {
     border: solid 1px lightgrey;
     height: 100%;
+    padding-bottom: 3rem;
+}
+
+.card-bottom {
+    border: solid 1px lightgrey;
+    margin-top: 4rem;
+}
+
+.info-card-bottom {
+    padding: 2rem;
 }
 
 .main-sub {
@@ -297,6 +311,10 @@ hr {
     content: ' Azienda';
 }
 
+.team::after {
+    content: ' Team';
+}
+
 .service-plan .fa-ul,
 .plan-spec .fa-ul {
     display: block;
@@ -305,11 +323,29 @@ hr {
 .plan-spec .fa-ul i {
     color: blue;
 }
+
+.left-card-bottom {
+    width: 65%;
+}
+
+.left-card-bottom h3 {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.right-card-bottom {
+    width: 35%;
+    text-align: end;
+}
+
+.right-card-bottom button {
+    padding: 1rem 3rem;
+}
 /* FINE SUBSCRIPTION */
 
 /* INIZIO PARTNER SECTION */
 .partner {
-    margin-top: 10rem;
+    margin-top: 15rem;
     margin-bottom: 10rem;
     display: flex;
 }
@@ -328,13 +364,20 @@ hr {
 
 .content-right-section-partner {
     width: 90%;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
 }
 
 .content-right-section-partner > * {
     margin: 1rem 0rem;
 }
 
+.content-right-section-partner h2 {
+    line-height: 2.5rem;
+}
+
 #partner-button {
+    font-size: 1.1rem;
     color: black;
     background-color: transparent;
     border: solid 1px black;
@@ -345,10 +388,21 @@ hr {
 .info-section * {
     margin-bottom: 1rem;
 }
+
+.info-section h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.info-section p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
 /* FINE INFO SECTION */
 
 .client {
     width: 70%;
+    margin-top: 15rem;
 }
 
 .client h2 {
