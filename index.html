@@ -23,7 +23,7 @@
     <header>
       <nav class="header-left">
         <ul class="header-left-nav">
-          <li><img src="./img/logo-small.png" alt="logo dropbox" /></li>
+          <li><img id="home-logo" src="./img/logo-small.png" alt="logo dropbox" /></li>
           <li><a href="#">Perchè Dropbox</a></li>
           <li><a href="#">Funzioni</a></li>
           <li><a href="#">Piani e Prezzi</a></li>
@@ -61,17 +61,20 @@
         </div>
       </section>
       <!-- FINE TOP MAIN -->
-      <hr />
       <!-- INIZIO SUB -->
       <section class="subscription">
         <div class="container">
           <div class="row">
             <div class="col-1-1">
               <h2>Trova il tuo piano business che fa per te</h2>
-              <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fa-solid fa-circle-dot selected"></i></span>Fatturazione mensile</li>
-                <li><span class="fa-li"><i class="fa-regular fa-circle"></i></span>Fatturazione annuale</li>
-              </ul>
+              <div class="sub-plan">               
+                  <input type="radio" name="type-plan" id="type-plan-month">
+                  <div class="fake-radio"></div>                  
+                  <label for="type-plan-month">Fatturazione mensile</label>
+                  <input type="radio" name="type-plan" id="type-plan-year">                  
+                  <div class="fake-radio"></div>                                   
+                  <label for="type-plan-year">Fatturazione annuale</label>                
+              </div>                
             </div>
           </div>         
         </div>
@@ -320,9 +323,15 @@
                 <li><a href="#">Funzioni</a></li>
               </ul>
             </div>
+            <div class="col-1-5">
+              <div id="language">
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa-solid fa-earth"></i></span> Italiano <i class="fa-solid fa-caret-up"></i></li>
+                </ul>                
+              </div>
+            </div>
           </div>
-        </div>
-        
+        </div>       
       </section>      
     </footer>
   </body>
