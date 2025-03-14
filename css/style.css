@@ -206,6 +206,7 @@ hr {
 
 .card {
     border: solid 1px lightgrey;
+    height: 100%;
 }
 
 .main-sub {
@@ -265,7 +266,7 @@ hr {
 }
 
 .plan-spec {
-    padding-top: 6rem;
+    padding-top: 7rem;
 }
 
 .plan-spec h2 {
@@ -286,6 +287,14 @@ hr {
 
 .user::after {
     content: ' Singolo';
+}
+
+.users::after {
+    content: ' Team';
+}
+
+.company::after {
+    content: ' Azienda';
 }
 
 .service-plan .fa-ul,
